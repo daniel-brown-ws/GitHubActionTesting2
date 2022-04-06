@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: GP Security Check Step
         id: gp-security-check
-        uses: daniel-brown-ws/GitHubPackagesSecurityAction@c8e62e5d773c379c15914d591cda4d6eaf8c0657
+        uses: daniel-brown-ws/GitHubPackagesSecurityAction@master
         with:
           gp-token: ${{ secrets.GP_TOKEN }}
           ws-api-key: ${{ secrets.WS_API_KEY }}
