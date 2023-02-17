@@ -1,0 +1,9 @@
+{   
+	"name": "pncui55",
+	"version": "0.5.1",
+	"dependencies": {
+		"bower": "^1.8.4", 
+		"lodash": "4.0.0",
+		"express": "3.0.0"
+	} 
+}     
